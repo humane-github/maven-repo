@@ -8,8 +8,6 @@
   
   <!-- プロパティ定義 -->
   <properties>
-    <!-- -->
-    <github.repository.url>https://raw.githubusercontent.com/humane-github/maven-repo/master</github.repository.url>
     <!-- maven-repoのclone場所を指定 -->
     <repository.clone.path>/path/to/clone/path</repository.clone.path>
     <!-- 文字コード:MS932 -->
@@ -24,9 +22,14 @@
   <!-- リポジトリの参照を追加 -->
   <repositories>
     <repository>
+      <id>mvnrepository</id>
+      <name>mvnrepository</name>
+      <url>https://mvnrepository.com/</url>
+    </repository>
+    <repository>
       <id>humane.github.repogitory</id>
       <name>Humane GitHub Repogitory</name>
-      <url>${github.repository.url}</url>
+      <url>http://humane-github.github.io/maven-repo</url>
     </repository>
   </repositories>
 
@@ -80,18 +83,15 @@
 
       <!-- opencv -->
       <dependency>
-        <groupId>opencv</groupId>
-        <artifactId>opencv</artifactId>
-        <version>249</version>
+          <groupId>nu.pattern</groupId>
+          <artifactId>opencv</artifactId>
+          <version>2.4.9-4</version>
       </dependency>
 
       <!-- ExceptionLib -->
-      <!-- 後で変更 -->
       <dependency>
         <groupId>jp.co.humane.humane-lib</groupId>
-        <artifactId>ExceptionLib</artifactId>
-        <scope>system</scope>
-        <systemPath>${basedir}/../ExceptionLib/target/ExceptionLib.jar</systemPath>
+        <artifactId>exception-lib</artifactId>
         <version>1.0</version>
       </dependency>
 
