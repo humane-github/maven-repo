@@ -6,12 +6,20 @@
   <version>1.0</version>
   <packaging>jar</packaging>
 
+  <!-- リポジトリの参照を追加 -->
+  <repositories>
+    <repository>
+      <id>humane.github.repogitory</id>
+      <name>Humane GitHub Repogitory</name>
+      <url>http://humane-github.github.io/maven-repo</url>
+    </repository>
+  </repositories>
+
   <!-- 親pom -->
   <parent>
     <groupId>jp.co.humane.humane-lib</groupId>
     <artifactId>humane-lib-parent</artifactId>
     <version>1.0</version>
-    <relativePath>../parent</relativePath>
   </parent>
 
 </project>
