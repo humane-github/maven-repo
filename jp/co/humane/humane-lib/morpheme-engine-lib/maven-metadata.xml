@@ -3,10 +3,10 @@
   <groupId>jp.co.humane.humane-lib</groupId>
   <artifactId>morpheme-engine-lib</artifactId>
   <versioning>
-    <release>1.0</release>
+    <release>1.0.0</release>
     <versions>
-      <version>1.0</version>
+      <version>1.0.0</version>
     </versions>
-    <lastUpdated>20161210090813</lastUpdated>
+    <lastUpdated>20161210124245</lastUpdated>
   </versioning>
 </metadata>
