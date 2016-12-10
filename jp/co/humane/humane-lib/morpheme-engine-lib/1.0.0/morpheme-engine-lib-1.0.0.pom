@@ -8,7 +8,7 @@
 
   <!-- 親pom -->
   <parent>
-    <groupId>jp.co.humane.humane-lib</groupId>
+    <groupId>jp.co.humane.humane-lib.parent</groupId>
     <artifactId>humane-lib-parent</artifactId>
     <version>1.0</version>
   </parent>
