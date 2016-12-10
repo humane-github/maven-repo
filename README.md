@@ -1,1 +1,1 @@
-mavenƒŒƒ|ƒWƒgƒŠ
+maven repository
